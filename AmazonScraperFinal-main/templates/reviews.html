@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Product Reviews</title>
+</head>
+<body>
+    <h1>Amazon Product Reviews</h1>
+
+    <form action="/reviews" method="POST">
+        <label for="product_url">Enter Amazon Product URL:</label>
+        <input type="text" id="product_url" name="product_url" required>
+        <button type="submit">Scrape Reviews</button>
+    </form>
+
+    <div id="reviews">
+        <!-- Reviews will be displayed here -->
+    </div>
+</body>
+</html>
