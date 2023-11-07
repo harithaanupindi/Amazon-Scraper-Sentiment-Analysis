@@ -1,4 +1,3 @@
-# AmazonScraper
 # Amazon Web Scraper
 
 ## Overview
