@@ -22,9 +22,9 @@ This project combines web scraping with sentiment analysis to extract product re
   - `pandas` (for data analysis)
   - `numpy` (for numerical operations)
   - `matplotlib` (for data visualization)
-  - sci-kit learn
-  - joblib
-  - spacy
+  - `sci-kit learn`
+  - `joblib`
+  - `spacy`
 
 ## Usage
 
