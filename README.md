@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Amazon Web Scraper is a Python project that scrapes product information from Amazon's website. It retrieves data such as product names, ratings and reviews for a given product url and number of pages. The scraped data is stored in a CSV file for performing sentiment analysis. 
+The Amazon Web Scraper is a Python project that scrapes product information from Amazon's website. It retrieves data such as product names, ratings and reviews for a given product url and number of pages. The scraped data is stored in an Excel file for performing sentiment analysis. 
 
 ## Features
 
