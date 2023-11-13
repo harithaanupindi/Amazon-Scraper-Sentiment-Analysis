@@ -39,23 +39,3 @@ This project combines web scraping with sentiment analysis to extract product re
 ## Output
 
 The output Excel file will have the following columns:  Name, Rating, Reviews, Lemmatized Reviews, Sentiment Polarity and Sentiment Score.
-
-# Web Scraper with Sentiment Analysis
-
-## Overview
-
-This project combines web scraping with sentiment analysis to extract product reviews from an e-commerce website and analyze the sentiment of the reviews using VADER (Valence Aware Dictionary and sEntiment Reasoner) from NLTK (Natural Language Toolkit).
-
-
-
-## Data
-
-- The scraped data and sentiment analysis results are saved in Excel files. 
-
-## Credits
-
-- The web scraper is built using BeautifulSoup and requests.
-
-- Sentiment analysis is performed using VADER from NLTK.
-
-
