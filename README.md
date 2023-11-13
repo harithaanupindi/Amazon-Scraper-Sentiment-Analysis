@@ -2,14 +2,15 @@
 
 ## Overview
 
-The Amazon Web Scraper is a Python project that scrapes product information from Amazon's website. It retrieves data such as product names, ratings and reviews for a given product url and number of pages. The scraped data is stored in an Excel file for performing sentiment analysis. 
+This project combines web scraping with sentiment analysis to extract product reviews from Amazon's website and analyze the sentiment of the reviews using VADER (Valence Aware Dictionary and sEntiment Reasoner) from NLTK (Natural Language Toolkit).
 
 ## Features
 
 - Search for products on Amazon using a specific product url.
 - Specify the number of pages to scrape.
 - Extract product names, ratings and reviews.
-- Save the data to a CSV file for analysis.
+- Save the data to an Excel file for sentiment analysis.
+- Applies sentiment analysis to the extracted reviews using VADER and NLTK.
 
 ## Prerequisites
 
@@ -40,13 +41,6 @@ The output CSV file will have the following columns:  Name, Ratings and Reviews.
 
 This project combines web scraping with sentiment analysis to extract product reviews from an e-commerce website and analyze the sentiment of the reviews using VADER (Valence Aware Dictionary and sEntiment Reasoner) from NLTK (Natural Language Toolkit).
 
-## Features
-
-- **Web Scraping:** Utilizes web scraping techniques to extract product reviews from an Amazon's website.
-
-- **Sentiment Analysis:** Applies sentiment analysis to the extracted reviews using VADER and NLTK.
-
-- **Data Storage:** Saves the scraped data and sentiment analysis results to an Excel file for further analysis.`
 
 
 ## Data
